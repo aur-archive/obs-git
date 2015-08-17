@@ -1,0 +1,22 @@
+pkgbase = obs-git
+	pkgdesc = Free, open source software for live streaming and recording
+	pkgver = r1014.7c8ef6f
+	pkgrel = 1
+	url = http://obsproject.com/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = cmake
+	depends = ffmpeg
+	depends = jansson
+	depends = libgl
+	depends = libxinerama
+	depends = libxkbcommon-x11
+	depends = qt5-base
+	depends = qt5-x11extras
+	optdepends = libfdk-aac: Fraunhofer FDK AAC codec support
+	source = obs-studio::git+https://github.com/jp9000/obs-studio.git
+
+pkgname = obs-git
+
